@@ -1,0 +1,234 @@
+{
+"intents": [
+        {
+            "tag":"greetings",
+            "patterns":["Hello", "Hi", "Howdy", "Hey", "How do you do?", "greetings","good morning","good afternoon","good evening"],
+            "responses":["Hi too, how can I help you?", "Hi there, how can I help you?","How are you, how can I help you?", "Greetings, how can I help you?", "Am good, how can I help you?", "Hello there, how can I help you?"]
+        },
+        {
+            "tag":"Goodbye",
+            "patterns":["Bye", "goodbye", "gotta go", "Pleasure talking to you","thank you","thanks"],
+            "responses":["Goodbye","Talk later", "See you again", "My pleasure to serve you"]
+        },
+        {
+            "tag": "info",
+            "patterns": ["Who are you?","what do you do?","what can you do?","what's your work","tell me"],
+            "responses": ["I am Equity's Intelligent chatbot designed to help student clients with queries on the banks operation. I can give information on\nOperation hours |\nAccounts to open |\nSchool fee collection accounts for universities |\nSavings accounts |\nContact details |\nMobile Banking |\n Lost card |\n Loans"]
+        },
+        {
+            "tag":"op_hours",
+            "patterns":["when do you work?", "Banking hours", "Opening hours", "Closing hours", "When does the bank open?", "What your operation hours?", "Operating hours?", "operating days","when is the bank open?"],
+            "responses":["Equity Bank operation hours are as follows: |\nMon-Fri 8am to 4.30pm |\nSaturdays 8am to 12pm |\nClosed on Sundays |\nClosed on Public holiday"]
+        },
+        {
+            "tag":"open_account",
+            "patterns":["I want to open account", "How can I open an account", "I want to open an account", "Can you advise me on the accounts?", "Which accounts can I open?","steps to open account","requirements to open account","needed documents","What do I need to open account" ],
+            "responses":["Opening an Equity Bank Account ensures safety and security for your finances. \n\nRequired Documents |\nIndividuals -Original Identification document & KRA Pin |\nAn introduction letter from the DSDO |\nRegistered Business- see account opening requirements for different entities. |\nDownload the application form |\nPresent the filled out form and necessary documents to the nearest Equity branch. |\nThe bank will then process your application and you can start banking with us.|\nFor students, we prefer you to explore our Personal accounts options which include:\nEquity Ordinary |\nEquity Current Account |\nSavings Account"]
+        },
+        {
+            "tag": "loan",
+            "patterns": ["How can I get a loan?", "Loan application", "Apply for loan", "Borrow loan", "How do I get loan","i want a loan"],
+            "responses": ["Equity Bank offers the following loans packages for Personal category depending on your needs.\nEquiloan |\nSalary Advance |\nAsset Finance |\nEazzy Loan |\nEquity Gold Credit Card"]
+        },
+        {
+            "tag": "mobile_bank",
+            "patterns": ["I want a mobile bank","mobile banking", "how can I connect my account to the mobile","what is mobile banking","Eazzy banking","I want a phone application"],
+            "responses": ["Equity Mobile App is a new mobile banking app that replaces the old EazzyBanking App. The app is simple and easy to use and offers you a new age digital user experience. It enables you access to your funds, build your savings, get instant loans, facilitate efficient funds transfer, bill payments to pay for goods and services and much more. \n\nEazzyBanking App is your key to banking anywhere, anytime. You can send money, pay for goods and services, access loans, save, pay bills and check the status of your account, all at the convenience of your handset. All you need is to be an Equity bank account holder.\nYou can access the application from any mobile phone network. Click: https://eazzybanking.app.link/update"]
+        },
+        {
+            "tag": "lost",
+            "patterns": ["I lost my card","I misplaced my card","I happened to have lost my card","I want to replace my card"],
+            "responses": ["To secure your account, you will need to get in touch with one of my human colleagues at our Contact Centre team to help you on that. You can either deactivate your account until you replace the card or restrict the operations on the account. The details needed include your mobile number, ID number and account number."]
+        },
+        {
+            "tag": "deposit",
+            "patterns": ["How do i deposit money to my account?","I want to make deposit"],
+            "responses": ["You can either deposit money to your account number through over the counter at the teller or Equity MPESA Paybill number 247247. All deposits through Equity agents attracts no charges"]
+        },
+        {
+            "tag": "withdraw",
+            "patterns": ["What are the withdrawal charges?","How much does withdrawal cost?","How much do you charge to withdraw?"],
+            "responses": ["Equity agent ATM withdrawal charges |\n\n100-2500\t25 |\n2501-5000\t45 |\n5001-10000\t75 |\n10001-20000\t145 |\n20,001-35000\t170 |\n35,001-50000\t195 |\n50,001-100000\t225"]
+        },
+        {
+            "tag": "",
+            "patterns": [""],
+            "responses": ["I'm sorry I don't understand, can you rephrase that?  \n I can give information on\nOperation hours |\nAccounts to open |\nSchool fee collection accounts for universities |\nSavings accounts |\nContact details |\nMobile Banking |\n Lost card |\n Loans"]
+        },
+        {
+            "tag":"ordinary_account",
+            "patterns":["Equity Ordinary Account", "ordinary", "Tell me about ordinary account", "ordinary account"],
+            "responses":["Equity Ordinary Account is your perfect medium for personal deposits, daily business transactions and remittances |\nKey Features |\nNo minimum operating balance. |\nEarn interest monthly on balances kept above Ksh. 10,000 only savings account should earn interest. We should have the saving accounts separate |\nNo monthly charges. |\nFull access to mobile banking and internet banking |\nCustomer can choose a payment card that best suits their needs."] },
+        {
+            "tag":"current_account",
+            "patterns":["Equity Current Account", "current account", "i want current account"],
+            "responses":["With Current account you are free to make deposits, receive money, make payments, make withdrawals and set up standing orders.\n\n| Key Features |\nNo minimum operating balance. |\nNo interest earning |\nNo monthly charges. |\nFull access to mobile banking. |\nCustomer can choose a payment card that best suits their needs."]
+        },
+        {
+          "tag": "save_account",
+          "patterns": ["Savings account", "saving account", "i want to save save", "invest","open a savings account","i want a savings account"],
+          "responses": ["The following are the Savings accounts you can open with Equity Bank. |\nAchievers Student Account |\nJijenge |\nJunior Member Account |\nTeen MemberAccount |\nCall/fixed account\n"]
+        },
+        {
+          "tag": "achievers",
+          "patterns": ["Achievers account","open Achievers","achieve", "open helb account", "open achievers students account", "account for helb allocation"],
+          "responses": ["Achievers Students Account is an affordable and convenient account that offers financial literacy to students. This account will facilitate Your HELB allocation transfers for easy access\n\nIdeal for:Students in all tertiary institutions of learning aged Tertiary institution students 18-24 yrs of age\n\n| Key Features |\nSign up all students on Eazzy 24/7 |\nNo opening balance |\nNo account maintaining balance |\nNo ledger charges |\nNo cash deposit charges over the counter; agent rates apply |\nNo limitation on the withdrawal amount |\nFree incoming funds transfer |\nFree internal funds transfer within the same scheme code |\nFree Eazzy 24/7 funds transfer within the same scheme code |\nAccount transformed into Equity ordinary account when the holder turns 25 years. |\n\nWhat You Require to Open an Achievers Account |\n\nOriginal Student ID/ college letter of admission |\nNational ID and photocopy |\nPassport for non-Kenyan students -student pass and alien ID"]
+        },
+        {
+          "tag": "jijenge",
+          "patterns": ["Jijenge Account", "Jijenge", "open jijenge account"],
+          "responses": ["Jijenge Account helps you build your dreams by providing an avenue to save towards them.\n\n| Key Features |\nAccount opening balance of KSh 300. |\nMinimum monthly contributions of KSh 300. |\nMinimum lock operating period of 6 months with no partial withdrawal. |\nNo monthly charges. |\n\nFree internal standing orders to your account |\nYou can conveniently access your account at any Equity branch countrywide. |\nThe account, allows you to determine your savings period from 6 months onwards. |\nEnjoy access to instant loans of up to 90% of your savings at discounted rates."]
+        },
+        {
+          "tag": "Junior",
+          "patterns": ["Junior Member Account","junior", "I want account for child", "i want to open an account for my Kids"],
+          "responses": ["JUNIOR MEMBER Account is an affordable and convenient account that offers financial literacy to students.\n\n| Key Features of the Junior Member Account |\nOpened by the parent/guardian on behalf of a minor (0-17 years) in the child’s name (A/c name) with the guardian/parent as a signatory. |\nOne withdrawal in every three months (quarterly) |\nFree cash deposits |\nFree standing order into the account |\nNo opening balance |\nNo minimum operating balance |\nAccount shall fall dormant in one year but will not attract activation fee. |\nThe account does not have a debit card |\nThe account can be mapped to mobile phone banking |\nHome Bank provided upon depositing Ksh.1000 in the account |\nInterest earning amount Ksh.10,000\n"]
+        },
+        {
+          "tag": "teen",
+          "patterns": ["Teen Member Account", " teen","teenager account", "i want teenager account"],
+          "responses": ["Features of the Teen Member Account |\nThe account will operate under the teens name. |\nThe account will require an opening and operating balance of KSh 200. |\nYou get two free withdrawals in a year. Any additional withdrawal is charged at KSh 200."]
+        },
+        {
+          "tag": "fixed_deposit",
+          "patterns": ["Fixed Deposit Account", "I want to open fixed account","what is fixed account"],
+          "responses": ["Fixed & Call Deposit Account gives you the avenue to collate money for investment opportunities. |\n Key Features |\nThis account allows a minimum fixing amount KShs 20,000 |\nThe minimum period allowed is one (1) month"]
+        },
+        {
+            "tag": "contact",
+            "patterns": ["Customer care number", "email contact", "social media contact", "facebook page", "contact","how can i contact customer care","customer care"],
+            "responses": ["Get our customer care services through the following platforms,\nPhone number: 0763000000 |\nEmail: info@equitybank.co.ke |\nWebsite: https://equitygroupholdings.com/ |\nFacebook Page: https://www.facebook.com/KeEquityBank/ |\nTwitter Handle: https://twitter.com/KeEquityBank |\n"]
+        },
+        {
+            "tag":"fee",
+            "patterns":["School Fees Collection Account", "school fee account", "make fee payment", "fees account","school fee", "fees"],
+            "responses":["Need to pay your school fee? Give me the name of your university/college for the account numbers"]
+        },
+        {
+            "tag": "nazarene",
+            "patterns": ["My university is African Nazarene University","Nazarene University","ANU"],
+            "responses": ["African Nazarene University |\nRongai Branch |\n610292522396"]
+        },
+        {
+            "tag": "cuea",
+            "patterns": ["cuea","My university is Catholic University"],
+            "responses": ["Catholic University EA |\nRongai Branch |\n610292352491"]
+        },
+        {
+            "tag": "chuka",
+            "patterns": ["chuka university","My university is chuka"],
+            "responses": ["Chuka University |\nChuka Branch |\n210261453469"]
+        },
+        {
+            "tag": "daystar",
+            "patterns": ["My university is daystar","daystar university"],
+            "responses": ["Daystar University |\nKenyata Ave. |\n1290261749660"]
+        },
+        {
+            "tag": "dekut",
+            "patterns": ["My university is dedan kimathi University","dekut"],
+            "responses": ["Dedan Kimathi Uni of Technology |\nNyeri 2 Branch |\n1150297300480"]
+        },
+        {
+            "tag": "jooust",
+            "patterns": ["jooust","My university is jaramogi university", "Jaramogi Oginga Odinga University of Technology"],
+            "responses": ["Jaramogi Oginga Odinga Uni of S &T |\nBondo Branch |\n750294239156"]
+        },
+        {
+            "tag": "jkuat",
+            "patterns": ["My university is jkuat","jomo kenyatta university of technology"],
+            "responses": ["JKUAT |\nThika 1 Branch |\n90291251426"]
+        },
+        {
+            "tag": "kabarak",
+            "patterns": ["kabarak university","My university is Kabarak"],
+            "responses": ["Kabarak University |\nNakuru 2 Branch |\n310294445167"]
+        },
+        {
+            "tag": "karatina",
+            "patterns": ["karatina university","My university is karatina"],
+            "responses": ["Karatina University College |\nKaratina Branch |\n40298291603"]
+        },
+        {
+            "tag": "kca",
+            "patterns": ["My university is kca", "kca university"],
+            "responses": ["KCA University |\nKasarani Branch |\n1180299956376"]
+        },
+        {
+            "tag": "kmu",
+            "patterns": ["My university is kenya methodist","kmu","kenya methodist university"],
+            "responses": ["Kenya Methodist University |\nMeru 1 Branch |\n140290923812"]
+        },
+        {
+            "tag": "ku",
+            "patterns": ["KU","My university is Kenyatta University","kenyatta uni"],
+            "responses": ["Kenyatta University |\nKU Branch |\n180290518859"]
+        },
+        {
+            "tag": "laikipia",
+            "patterns": ["My university is laikipia", "laikipia university"],
+            "responses": ["Laikipia University |\nNyahururu Branch |\n160295840456"]
+        },
+        {
+            "tag": "maasai",
+            "patterns": ["My university is masai mara","masai mara university"],
+            "responses": ["Masai Mara University |\nNarok Branch |\n360292999764"]
+        },
+        {
+            "tag": "maseno",
+            "patterns": ["My university is maseno","maseno university"],
+            "responses": ["Maseno University - City Campus |\nKisumu 1 Branch |\n290297174546 |\nMaseno University - Main Campus |\nLuanda Branch |\n1120297065141"]
+        },
+        {
+            "tag": "mmust",
+            "patterns": ["mmust","My university is masinde muliro university"],
+            "responses": ["Masinde Muliro Univ. of S &T |\nKakamega Branch |\n500294636103"]
+        },
+        {
+            "tag": "meru",
+            "patterns": ["meru","My university is meru university"],
+            "responses": ["Meru University |\nMeru Makutano |\n1040297858661"]
+        },
+        {
+            "tag": "moi",
+            "patterns": ["moi","My university is moi university"],
+            "responses": ["Moi Univ- Govt. Sponsored |\nEldoret 1 Branch |\n300291768839 |\nMoi Univ- Private Sponsored |\nEldoret 1 Branch |\n300291768844"]
+        },
+        {
+            "tag": "mku",
+            "patterns": ["mku", "My university is Mount Kenya University", "Mt. kenya"],
+            "responses": [" Mt. Kenya University |\nThika 1 Branch |\n90292687045"]
+        },
+        {
+            "tag": "pwani",
+            "patterns": ["pwani university","My university is pwani"],
+            "responses": ["Pwani University |\nKilifi Branch |\n460291566407"]
+        },
+        {
+            "tag": "paul",
+            "patterns": ["My university is Saint Paul","paul's university"],
+            "responses": ["St. Paul's University |\nLimuru Branch |\n690261549404"]
+        },
+        {
+            "tag": "strath",
+            "patterns": ["srathmore university","My university is strathmore"],
+            "responses": ["Strathmore University |\nNairobi West Branch |\n170293160242"]
+        },
+        {
+            "tag": "tuk",
+            "patterns": ["TUK", "My university is technical university of kenya","tukenya"],
+            "responses": ["Technical University of Kenya |\nMoi Avenue Branch |\n540290597366"]
+        },
+        {
+            "tag": "tum",
+            "patterns": ["tum","My university is technical university of mombasa","tumombasa"],
+            "responses": ["Technical University of Mombasa |\nMombasa Digo |\n460297818058"]
+        },
+        {
+            "tag": "uoe",
+            "patterns": ["uoe","My university is university of eldoret"],
+            "responses": ["University of Eldoret |\nEldoret 1 Branch |\n300297338822"]
+        }
+
+  ]
+}
